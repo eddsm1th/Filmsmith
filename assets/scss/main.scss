@@ -1,0 +1,28 @@
+body{
+	font-family: helvetica;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1, h2{
+	font-weight: 100;
+}
+
+h1, p, h2{
+	margin: 0;
+	color: #383838
+}
+
+h2{
+	font-size: 24px;
+}
+
+.section-wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+a{
+	color: inherit !important;
+	text-decoration: none;
+}

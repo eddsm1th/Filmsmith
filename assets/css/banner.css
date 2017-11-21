@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase; }
+  .banner h1 {
+    font-size: 120px; }
+  .banner nav {
+    width: 630px;
+    display: flex; }
+    .banner nav p {
+      flex: 1;
+      text-align: center;
+      border-right: 1px solid #383838; }
+      .banner nav p:first-child {
+        border-left: 1px solid #383838; }
+
+/*# sourceMappingURL=banner.css.map */

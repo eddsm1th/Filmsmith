@@ -1,0 +1,23 @@
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 500; }
+  header h1, header nav {
+    flex: 1;
+    font-size: 18px; }
+  header h1 {
+    padding-left: 1rem; }
+  header nav {
+    flex: 3;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse; }
+    header nav p {
+      padding-left: 1rem; }
+      header nav p:first-child {
+        padding-right: 1rem; }
+
+/*# sourceMappingURL=header.css.map */

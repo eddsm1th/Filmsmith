@@ -1,0 +1,28 @@
+.two_column_text{
+	background: #383838;
+	padding: 4rem 0;
+
+	.section-wrap{
+		display: flex;
+
+		h2{
+			color: white;
+			flex: 1;
+			text-transform: uppercase;
+			font-weight: 100
+		}
+
+		div{
+			flex: 2;
+
+			p{
+				color: white;
+				margin-bottom: 1rem;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.two_column_text {
+  background: #383838;
+  padding: 4rem 0; }
+  .two_column_text .section-wrap {
+    display: flex; }
+    .two_column_text .section-wrap h2 {
+      color: white;
+      flex: 1;
+      text-transform: uppercase;
+      font-weight: 100; }
+    .two_column_text .section-wrap div {
+      flex: 2; }
+      .two_column_text .section-wrap div p {
+        color: white;
+        margin-bottom: 1rem; }
+        .two_column_text .section-wrap div p:last-child {
+          margin-bottom: 0; }
+
+/*# sourceMappingURL=two_column_text.css.map */
