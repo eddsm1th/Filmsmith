@@ -1,8 +1,7 @@
 $(document).ready(function(){
 
+	//shows/hides top navbar depending on scroll amount
 	check_nav_display();
-
-	$('.js-nav-check').css('width','' + ($('.js-title').width() - 16) + 'px');
 
 	$(window).scroll(function(){
 		check_nav_display();
@@ -15,5 +14,8 @@ $(document).ready(function(){
 			$('.js-nav').css('opacity','0');
 		}
 	}
+
+	//gets width for banner nav bar
+	$('.js-nav-check').css('width','' + ($('.js-title').width() - 16) + 'px');
 
 })
