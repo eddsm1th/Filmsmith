@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAiB;EAChB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,MAAM",
+"sources": ["../scss/full-width-image.scss"],
+"names": [],
+"file": "full-width-image.css"
+}

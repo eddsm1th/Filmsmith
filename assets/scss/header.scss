@@ -1,18 +1,23 @@
- header{
+header{
+	opacity: 0;
  	position: fixed;
  	width: 100%;
  	display: flex;
- 	padding: 20px 0;
+ 	padding: 1rem 0;
  	text-transform: uppercase;
- 	font-weight: 500;
+ 	background: rgba(56,56,56,0.9);
+ 	transition: 0.3s all ease;
 
  	h1, nav{
  		flex: 1;
- 		font-size: 18px;
+ 		font-size: 16px;
  	}
 
  	h1{
- 		padding-left: 1rem;
+ 		color: white;
+ 		box-sizing: border-box;
+ 		margin: 0 1rem 0 1rem;
+ 		font-weight: 300;
  	}
 
  	nav{
@@ -22,7 +27,9 @@
  		flex-direction: row-reverse;
 
  		p{
- 			padding-left: 1rem;
+ 			font-weight: 300;
+ 			color: white;
+ 			padding-left: 2rem;
 
  			&:first-child{
  				padding-right: 1rem;	

@@ -13,16 +13,36 @@
 	}
 
 	nav{
-		width: 630px;
 		display: flex;
 
 		p{
+			position: relative;
+			box-sizing: border-box;
 			flex: 1;
 			text-align: center;
 			border-right: 1px solid #383838;
 
 			&:first-child{
 				border-left: 1px solid #383838;
+			}
+
+			&:after{
+				transition: 0.3s all ease;
+				content: "";
+				position: absolute;
+				width: 0%;
+				bottom: -0.25rem;
+				left: 15%;
+				height: 1px;
+				background: #383838;
+			}
+
+			&:hover{
+				cursor: pointer;
+
+				&:after{
+					width: 70%;
+				}
 			}
 		}
 	}

@@ -5,17 +5,26 @@
 	.section-wrap{
 		display: flex;
 
+		@media(max-width: 768px){
+			flex-direction: column;
+		}
+
 		h2{
 			color: white;
 			flex: 1;
 			text-transform: uppercase;
-			font-weight: 100
+			font-weight: 100;
+
+			@media(max-width: 768px){
+				margin-bottom: 1rem;
+			}
 		}
 
 		div{
 			flex: 2;
 
 			p{
+				text-align: justify;
 				color: white;
 				margin-bottom: 1rem;
 

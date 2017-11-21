@@ -1,22 +1,29 @@
 header {
+  opacity: 0;
   position: fixed;
   width: 100%;
   display: flex;
-  padding: 20px 0;
+  padding: 1rem 0;
   text-transform: uppercase;
-  font-weight: 500; }
+  background: rgba(56, 56, 56, 0.9);
+  transition: 0.3s all ease; }
   header h1, header nav {
     flex: 1;
-    font-size: 18px; }
+    font-size: 16px; }
   header h1 {
-    padding-left: 1rem; }
+    color: white;
+    box-sizing: border-box;
+    margin: 0 1rem 0 1rem;
+    font-weight: 300; }
   header nav {
     flex: 3;
     display: flex;
     width: 100%;
     flex-direction: row-reverse; }
     header nav p {
-      padding-left: 1rem; }
+      font-weight: 300;
+      color: white;
+      padding-left: 2rem; }
       header nav p:first-child {
         padding-right: 1rem; }
 

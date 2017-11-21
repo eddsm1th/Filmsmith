@@ -10,13 +10,27 @@
   .banner h1 {
     font-size: 120px; }
   .banner nav {
-    width: 630px;
     display: flex; }
     .banner nav p {
+      position: relative;
+      box-sizing: border-box;
       flex: 1;
       text-align: center;
       border-right: 1px solid #383838; }
       .banner nav p:first-child {
         border-left: 1px solid #383838; }
+      .banner nav p:after {
+        transition: 0.3s all ease;
+        content: "";
+        position: absolute;
+        width: 0%;
+        bottom: -0.25rem;
+        left: 15%;
+        height: 1px;
+        background: #383838; }
+      .banner nav p:hover {
+        cursor: pointer; }
+        .banner nav p:hover:after {
+          width: 70%; }
 
 /*# sourceMappingURL=banner.css.map */

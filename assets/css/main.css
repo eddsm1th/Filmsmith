@@ -14,6 +14,8 @@ h2 {
   font-size: 24px; }
 
 .section-wrap {
+  box-sizing: border-box;
+  padding: 0 20px;
   max-width: 1000px;
   margin: 0 auto; }
 
