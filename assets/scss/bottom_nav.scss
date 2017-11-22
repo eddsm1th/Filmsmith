@@ -38,6 +38,11 @@
 				text-transform: uppercase;
 				flex: 1;
 				cursor: pointer;
+				border-right: 1px solid white;
+
+				&:last-child{
+					border-right: none;
+				}
 			}
 		}
 

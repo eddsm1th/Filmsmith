@@ -29,7 +29,10 @@
         color: white;
         text-transform: uppercase;
         flex: 1;
-        cursor: pointer; }
+        cursor: pointer;
+        border-right: 1px solid white; }
+        .bottom_nav div nav p:last-child {
+          border-right: none; }
     .bottom_nav div .js-bottom-nav-show {
       opacity: 1; }
 

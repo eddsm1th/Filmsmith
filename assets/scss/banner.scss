@@ -10,10 +10,22 @@
 
 	h1{
 		font-size: 120px;
+
+		@media(max-width: 1024px){
+			font-size: 100px;
+		}
+
+		@media(max-width: 768px){
+			font-size: 70px;
+		}
 	}
 
 	nav{
 		display: flex;
+
+		@media(max-width: 768px){
+			display: none;
+		}
 
 		p{
 			position: relative;

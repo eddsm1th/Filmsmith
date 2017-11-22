@@ -9,8 +9,17 @@
   text-transform: uppercase; }
   .banner h1 {
     font-size: 120px; }
+    @media (max-width: 1024px) {
+      .banner h1 {
+        font-size: 100px; } }
+    @media (max-width: 768px) {
+      .banner h1 {
+        font-size: 70px; } }
   .banner nav {
     display: flex; }
+    @media (max-width: 768px) {
+      .banner nav {
+        display: none; } }
     .banner nav p {
       position: relative;
       box-sizing: border-box;

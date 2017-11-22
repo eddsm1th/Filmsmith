@@ -16,7 +16,13 @@ $(document).ready(function(){
 	}
 
 	//gets width for banner nav bar
-	$('.js-nav-check').css('width','' + ($('.js-title').width() - 16) + 'px');
+	get_title_nav_width();
+
+	$(window).resize(function(){
+		get_title_nav_width();
+	})
+
+	function get_title_nav_width(){ $('.js-nav-check').css('width','' + ($('.js-title').width() - 16) + 'px'); }
 
 	//bottom nav display/hide
 	$('.bottom_nav').click(function(){
