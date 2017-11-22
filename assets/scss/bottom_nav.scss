@@ -1,0 +1,44 @@
+.bottom_nav{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(56,56,56,0.9);
+	text-align: center;
+
+	@media(max-width: 768px){
+		display: block;
+	}
+
+	div{
+		position: relative;
+		padding: 0.5rem 0;
+
+		svg{
+			cursor: pointer;
+		}
+
+		nav{
+			opacity: 0;
+			position: absolute;
+			display: flex;
+			bottom: 100%;
+			background: rgba(56,56,56,0.9);
+			padding: 1rem 0;
+			width: 100%;
+			transition: 0.3s all ease;
+
+			p{
+				color: white;
+				text-transform: uppercase;
+				flex: 1;
+				cursor: pointer;
+			}
+		}
+
+		.js-bottom-nav-show{
+			opacity: 1;
+		}
+	}
+}

@@ -8,6 +8,10 @@ header{
  	background: rgba(56,56,56,0.9);
  	transition: 0.3s all ease;
 
+ 	@media(max-width: 768px){
+ 		display: none;
+ 	}
+
  	h1, nav{
  		flex: 1;
  		font-size: 16px;
