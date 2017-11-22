@@ -22,8 +22,16 @@ $(document).ready(function(){
 	$('.bottom_nav').click(function(){
 
 		if ( $('.bottom-nav__nav').hasClass('js-bottom-nav-show') ) {
+			$('.js-cross').fadeOut(150).queue(function(){
+				$('.js-burger').fadeIn(150).dequeue();
+			})
+
 			$('.bottom-nav__nav').removeClass('js-bottom-nav-show');
 		} else {
+			$('.js-burger').fadeOut(150).queue(function(){
+				$('.js-cross').fadeIn(150).dequeue();
+			})
+
 			$('.bottom-nav__nav').addClass('js-bottom-nav-show');
 		}
 	})

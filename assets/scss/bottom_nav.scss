@@ -19,13 +19,17 @@
 			cursor: pointer;
 		}
 
+		.js-cross{
+			display: none;
+		}
+
 		nav{
 			opacity: 0;
 			position: absolute;
 			display: flex;
 			bottom: 100%;
 			background: rgba(56,56,56,0.9);
-			padding: 1rem 0;
+			padding: 1rem 0 0.5rem 0;
 			width: 100%;
 			transition: 0.3s all ease;
 
