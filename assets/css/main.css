@@ -15,7 +15,7 @@ h2 {
 
 .section-wrap {
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 1rem;
   max-width: 1000px;
   margin: 0 auto; }
 
