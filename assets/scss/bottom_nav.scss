@@ -14,13 +14,21 @@
 	div{
 		position: relative;
 		padding: 0.5rem 0;
+		top: 0;
+		left: 0;
+		height: 32px;
 
-		svg{
+		.js-cross, .js-burger{
+			position: absolute;
 			cursor: pointer;
+			left: 50%;
+			margin-left: -16px;
+			transition: 0.3s all ease;
 		}
 
 		.js-cross{
-			display: none;
+			transform: translateX(-40px) rotate(45deg);
+			opacity: 0;
 		}
 
 		nav{

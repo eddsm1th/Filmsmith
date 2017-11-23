@@ -28,16 +28,12 @@ $(document).ready(function(){
 	$('.bottom_nav').click(function(){
 
 		if ( $('.bottom-nav__nav').hasClass('js-bottom-nav-show') ) {
-			$('.js-cross').fadeOut(150).queue(function(){
-				$('.js-burger').fadeIn(150).dequeue();
-			})
-
+			$('.js-cross').css({'transform':'translateX(-40px) rotate(45deg)','opacity':'0'});
+			$('.js-burger').css({'transform':'translateX(0px)','opacity':'1'});
 			$('.bottom-nav__nav').removeClass('js-bottom-nav-show');
 		} else {
-			$('.js-burger').fadeOut(150).queue(function(){
-				$('.js-cross').fadeIn(150).dequeue();
-			})
-
+			$('.js-burger').css({'transform':'translateX(40px)','opacity':'0'});
+			$('.js-cross').css({'transform':'translateX(0px) rotate(45deg)','opacity':'1'});
 			$('.bottom-nav__nav').addClass('js-bottom-nav-show');
 		}
 	})
