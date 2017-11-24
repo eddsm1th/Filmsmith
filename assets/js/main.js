@@ -1,20 +1,5 @@
 $(document).ready(function(){
 
-	//shows/hides top navbar depending on scroll amount
-	check_nav_display();
-
-	$(window).scroll(function(){
-		check_nav_display();
-	})
-
-	function check_nav_display(){
-		if ( $(document).scrollTop() > $('.js-nav-check').offset().top + $('.js-nav-check').height() ) {
-			$('.js-nav').css('opacity','1');
-		} else {
-			$('.js-nav').css('opacity','0');
-		}
-	}
-
 	//gets width for banner nav bar
 	get_title_nav_width();
 
@@ -24,7 +9,7 @@ $(document).ready(function(){
 
 	function get_title_nav_width(){ $('.js-nav-check').css('width','' + ($('.js-title').width() - 16) + 'px'); }
 
-	//bottom nav display/hide
+	//nav display/hide
 	$('.burger-menu').click(function(){
 
 		if ( $('.burger-menu').hasClass('js-bottom-nav-show') ) {
@@ -33,9 +18,10 @@ $(document).ready(function(){
 			$('.burger-menu').removeClass('js-bottom-nav-show');
 			setTimeout(hide_nav,200);
 		} else {
-			$('header').css('right','0');
-			setTimeout(show_nav,100);
+			$('header').addClass('nav-show');
+			setTimeout(show_nav,020);
 		}
+
 	})
 
 	function show_nav(){
@@ -45,7 +31,7 @@ $(document).ready(function(){
 	}
 
 	function hide_nav(){
-		$('header').css('right','-300px');
+		$('header').removeClass('nav-show')
 	}
 
 })

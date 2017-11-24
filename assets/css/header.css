@@ -29,7 +29,9 @@ header {
   flex-direction: column; }
   @media (max-width: 768px) {
     header {
-      width: 100%; } }
+      width: 100%;
+      right: 0;
+      left: 100%; } }
   header nav {
     width: 100%;
     flex: 1;
@@ -47,5 +49,11 @@ header {
     justify-content: center; }
     header div a {
       margin: 0 1rem; }
+
+.nav-show {
+  right: 0px; }
+  @media (max-width: 768px) {
+    .nav-show {
+      left: 0; } }
 
 /*# sourceMappingURL=header.css.map */

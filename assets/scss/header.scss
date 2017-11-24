@@ -35,6 +35,8 @@ header{
 
 	@media(max-width: 768px){
 		width: 100%;
+		right: 0;
+		left: 100%;
 	}
 
 	nav{
@@ -60,5 +62,13 @@ header{
 		a{
 			margin: 0 1rem;
 		}
+	}
+}
+
+.nav-show{
+	right: 0px;
+
+	@media(max-width: 768px){
+		left: 0;
 	}
 }
