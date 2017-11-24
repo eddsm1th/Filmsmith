@@ -19,7 +19,7 @@ $(document).ready(function(){
 			setTimeout(hide_nav,200);
 		} else {
 			$('header').addClass('nav-show');
-			setTimeout(show_nav,020);
+			setTimeout(show_nav,200);
 		}
 
 	})
