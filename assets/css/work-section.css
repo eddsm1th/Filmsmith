@@ -1,0 +1,86 @@
+.work-section {
+  width: 100%;
+  background: blue;
+  padding: 4rem 0; }
+  .work-section > .section-wrap > h2 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0 0 1rem 0; }
+  .work-section > .section-wrap > div {
+    display: flex; }
+    @media (max-width: 1024px) {
+      .work-section > .section-wrap > div {
+        flex-direction: column; } }
+    .work-section > .section-wrap > div > div:nth-child(1) {
+      height: 500px;
+      box-sizing: border-box;
+      flex: 4;
+      background: red;
+      margin: 0 1rem 0 0; }
+      @media (max-width: 1024px) {
+        .work-section > .section-wrap > div > div:nth-child(1) {
+          flex: none;
+          margin: 0 0 1rem 0; } }
+      @media (max-width: 768px) {
+        .work-section > .section-wrap > div > div:nth-child(1) {
+          margin: 0; } }
+    .work-section > .section-wrap > div > div:nth-child(2) {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      @media (max-width: 1024px) {
+        .work-section > .section-wrap > div > div:nth-child(2) {
+          flex: none;
+          flex-direction: row; } }
+      @media (max-width: 768px) {
+        .work-section > .section-wrap > div > div:nth-child(2) {
+          flex-wrap: wrap; } }
+      .work-section > .section-wrap > div > div:nth-child(2) > div {
+        flex: 1;
+        box-sizing: border-box;
+        margin: 0.25rem 0;
+        background: purple;
+        display: flex;
+        flex-direction: column; }
+        @media (max-width: 1024px) {
+          .work-section > .section-wrap > div > div:nth-child(2) > div {
+            margin: 0 0.25rem;
+            height: 160px; } }
+        @media (max-width: 768px) {
+          .work-section > .section-wrap > div > div:nth-child(2) > div {
+            min-width: 175px;
+            width: calc(50% - 0.5rem);
+            margin: 0 0.25rem;
+            flex: none; } }
+        .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+1) {
+          margin: 0 0 0.25rem 0; }
+          @media (max-width: 1024px) {
+            .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+1) {
+              margin: 0 0.25rem 0 0; } }
+          @media (max-width: 768px) {
+            .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+1) {
+              margin: 0; } }
+        .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+4) {
+          margin: 0.25rem 0 0 0; }
+          @media (max-width: 1024px) {
+            .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+4) {
+              margin: 0 0 0 0.25rem; } }
+          @media (max-width: 768px) {
+            .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(4n+4) {
+              margin: 0; } }
+        @media (max-width: 768px) {
+          .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(odd) {
+            margin: 1rem 0.5rem 0 0; } }
+        @media (max-width: 768px) {
+          .work-section > .section-wrap > div > div:nth-child(2) > div:nth-child(even) {
+            margin: 1rem 0 0 0.5rem; } }
+        .work-section > .section-wrap > div > div:nth-child(2) > div > div {
+          flex: 5;
+          height: auto;
+          background: orange; }
+        .work-section > .section-wrap > div > div:nth-child(2) > div > p {
+          padding: 0.25rem;
+          flex: 1;
+          color: white; }
+
+/*# sourceMappingURL=work-section.css.map */
