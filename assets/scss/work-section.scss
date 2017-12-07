@@ -52,6 +52,7 @@
 					}
 
 					> div{
+						cursor: pointer;
 						flex: 1;
 						box-sizing: border-box;
 						margin: 0.25rem 0;
@@ -117,6 +118,8 @@
 							padding: 0.25rem;
 							flex: 1;
 							color: white;
+							display: flex;
+							align-items: center;
 						}
 					}
 				}
