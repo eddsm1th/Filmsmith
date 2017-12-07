@@ -1,14 +1,18 @@
 .work-section{
 	width: 100%;
-	background: blue;
+	/*background-image: url('../images/BG_1.jpg');*/
+	background: white;
+	background-position: center center;
 	padding: 4rem 0;
 
 	> .section-wrap{
 
 		> h2{
 			text-transform: uppercase;
-			color: white;
+			/*color: white;*/
+			color: #383838;
 			margin: 0 0 1rem 0;
+			font-weight: 100;
 		}	
 		
 		> div{
@@ -24,7 +28,7 @@
 					height: 500px;
 					box-sizing: border-box;
 					flex: 4;
-					background: red;
+					background: #383838;
 					margin: 0 1rem 0 0;
 
 					@media(max-width: 1024px){
@@ -56,7 +60,6 @@
 						flex: 1;
 						box-sizing: border-box;
 						margin: 0.25rem 0;
-						background: purple;
 						display: flex;
 						flex-direction: column;
 
@@ -111,19 +114,25 @@
 						> div{
 							flex: 5;
 							height: auto;
-							background: orange;
+							background: #383838;
 						}
 
 						> p{
 							padding: 0.25rem;
 							flex: 1;
-							color: white;
+							/*color: white;*/
+							color: #383838;
 							display: flex;
 							align-items: center;
 						}
 					}
 				}
 			}
+		}
+
+		> p{
+			margin: 2rem 0 0 0;
+			text-align: center;
 		}
 	}
 }
